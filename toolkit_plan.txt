@@ -1,0 +1,24 @@
+Toolkit Plan
+============
+
+Tools
+-----
+1. Simple calculator: The calculator asks for two numbers and an operation, then displays the result or explains an unsupported operation.
+	Concepts: conditionals, f-strings.
+
+2. To-do list: The to-do list lets the user add, view, and remove tasks until they choose to return to the main menu.
+	Concepts: loop, changing list, conditionals, f-strings.
+
+3. Number-guessing game: The game chooses a random number and gives the user repeated higher-or-lower hints until they guess correctly.
+	Concepts: loop, conditionals, random numbers, f-strings.
+
+Exact menu text
+---------------
+Toolkit
+1. Simple calculator
+2. To-do list
+3. Number-guessing game
+4. Quit
+Choose a tool (1-4):
+
+Menu dispatch uses if / elif / else so each numbered choice opens its tool, Quit exits, and an invalid choice gets a friendly message.
